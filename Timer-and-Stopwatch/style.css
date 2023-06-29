@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, #0076a5, #60e2f3);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline 2px solid rgb(218, 218, 218);
+    color: rgb(228, 226, 226);
+    margin: 20px;
+}
+
+.section {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #0c0c0c2d;
+    border-radius: 7px;
+    box-shadow: 1px 1px 6px rgb(31, 30, 30);
+}
+
+.section h2{
+    letter-spacing: 1.3px ;
+}
+
+.section input{
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px rgb(48, 48, 48);
+    padding: 10px 20px;
+    background-color: #0e0e0e38;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin: 5px 10px;
+}
+
+.section input::placeholder{
+    color: rgb(226, 226, 226);
+}
+
+.section input:focus,
+.section input:valid {
+    outline: 0;
+}
+
+button{
+    border: none;
+    margin: 10px 5px;
+    border-radius: 7px;
+    background-color: #0c0c0c46;
+    padding: 5px 20px;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    box-shadow: 1px 1px 6px rgb(31, 30, 30);
+}
+
+button:hover{
+    box-shadow: none;
+    color: rgb(27, 27, 27);
+}
+
+.time-display{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    margin: 5px 0px;
+}
+
+footer{
+    margin-bottom: 20px;
+}
